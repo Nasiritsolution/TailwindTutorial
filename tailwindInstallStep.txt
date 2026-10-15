@@ -1,0 +1,13 @@
+
+ Step 1 : Make a folder Test
+
+ Step 2 : Necessary to Install NPM 
+ Step 3 : npm init -y
+ Step 4 : npm install tailwindcss @tailwindcss/cli
+ Step 5 : input.css file banay apny root folder main 
+ Step 6 : @import "tailwindcss";
+
+          @source "./*.html";
+ Step 7 : index.html main yeh link kray <link rel="stylesheet" href="./output.css">
+ Step 8 : npx tailwindcss -i ./input.css -o ./output.css --watch
+
